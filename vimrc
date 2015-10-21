@@ -28,7 +28,9 @@ let g:DoxygenToolkit_classTag = "\\class "
 
 let g:DoxygenToolkit_compactOneLineDoc = "yes"
 
-"latex-suite
+" latex-suite
 let g:Tex_DefaultTargetFormat="pdf"
 "let g:tex_flavor="latex"
 
+" taglist
+let Tlist_Use_Right_Window = 1

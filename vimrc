@@ -34,3 +34,8 @@ let g:Tex_DefaultTargetFormat="pdf"
 
 " taglist
 let Tlist_Use_Right_Window = 1
+
+"This mapping uses <cword> to get the word under the cursor, and searches for
+"it in the current directory and all subdirectories, opening the quickfix
+"window when done
+map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>

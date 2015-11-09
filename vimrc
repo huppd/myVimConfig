@@ -11,6 +11,9 @@ set tabstop=2
 set autoindent
 set cindent
 
+" spell checker
+set spell spelllang=en_us
+
 " doxy plugin
 let g:DoxygenToolkit_commentType = "C++"
 

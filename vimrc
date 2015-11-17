@@ -42,3 +42,6 @@ let Tlist_Use_Right_Window = 1
 "it in the current directory and all subdirectories, opening the quickfix
 "window when done
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+
+" fortran
+let fortran_do_enddo=1

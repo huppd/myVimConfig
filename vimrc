@@ -31,6 +31,8 @@ let g:DoxygenToolkit_classTag = "\\class "
 
 let g:DoxygenToolkit_compactOneLineDoc = "yes"
 
+let g:load_doxygen_syntax=1 " independent on plugins just highlights
+
 " latex-suite
 let g:Tex_DefaultTargetFormat="pdf"
 "let g:tex_flavor="latex"

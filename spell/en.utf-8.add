@@ -10,3 +10,6 @@ linearization
 preconditioner
 Galerkin
 Womersley
+GMRES
+ETH
+Picard's

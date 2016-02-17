@@ -28,3 +28,6 @@
 [submodule "bundle/vim-dirdiff"]
 	path = bundle/vim-dirdiff
 	url = git://github.com/will133/vim-dirdiff
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git

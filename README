@@ -17,7 +17,7 @@ git submodule update
 
 cd ~/.vim
 git submodule add http://github.com/... bundle/plugin_name
-git add.
+git add .
 git commit -m "installed plugin"
 
 	Upgrading all bundled plugins

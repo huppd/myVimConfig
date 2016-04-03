@@ -22,9 +22,6 @@
 [submodule "bundle/easytags"]
 	path = bundle/easytags
 	url = https://github.com/xolox/vim-easytags.git
-[submodule "vim-misc"]
-	path = bundle/vim-misc
-	url = https://github.com/xolox/vim-misc.git
 [submodule "bundle/vim-dirdiff"]
 	path = bundle/vim-dirdiff
 	url = git://github.com/will133/vim-dirdiff

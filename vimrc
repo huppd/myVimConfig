@@ -5,6 +5,10 @@ filetype plugin indent on
 
 set number " shows line number
 
+" vim-easytags
+let b:easytags_auto_highlight = 0 " no color
+"let g:easytags_syntax_keyword = 'always'
+
 " indent
 set shiftwidth=2
 set tabstop=2
@@ -47,6 +51,3 @@ map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 
 " fortran
 let fortran_do_enddo=1
-
-" vim-easytags
-let b:easytags_auto_highlight = 0 " no color

@@ -5,8 +5,9 @@ filetype plugin indent on
 
 set number " shows line number
 
-" vim-easytags
-let b:easytags_auto_highlight = 0 " no color
+" vim-easytags " no color
+:autocmd FileType cpp let b:easytags_auto_highlight = 0
+"let b:easytags_auto_highlight = 0
 "let g:easytags_syntax_keyword = 'always'
 
 " indent

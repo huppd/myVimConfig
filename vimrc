@@ -15,6 +15,7 @@ set shiftwidth=2
 set tabstop=2
 set autoindent
 set cindent
+set cinoptions+=l1 " for switch case alignement
 
 " spell checker
 set spell spelllang=en_us

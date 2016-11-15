@@ -16,6 +16,8 @@ set tabstop=2
 set autoindent
 set cindent
 set cinoptions+=l1 " for switch case alignement
+set cino=N-s       " for namespace no indentation
+set cino=g0        " for classes no indentation
 
 " spell checker
 set spell spelllang=en_us

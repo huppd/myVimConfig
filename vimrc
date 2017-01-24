@@ -43,7 +43,9 @@ let g:load_doxygen_syntax=1 " independent on plugins just highlights
 
 " latex-suite
 let g:Tex_DefaultTargetFormat="pdf"
-"let g:tex_flavor="latex"
+let g:tex_flavor="latex"  "activates plugin also for non begin document files
+let g:Tex_GotoError=0 "decativates jumping to first error
+
 
 " taglist
 let Tlist_Use_Right_Window = 1

@@ -59,5 +59,5 @@ map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 let fortran_do_enddo=1
 
 " font size
-set guifont=Monospace\ 18
+"set guifont=Monospace\ 18
 

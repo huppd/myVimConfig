@@ -60,3 +60,8 @@ let fortran_do_enddo=1
 
 " font size
 "set guifont=Monospace\ 18
+
+" syntastic headers on
+let g:syntastic_cpp_check_header = 1 
+let g:syntastic_c_remove_include_errors = 1 
+let g:syntastic_c_include_dirs = ['/home/huppd/trilinos/debug/include']

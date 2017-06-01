@@ -17,10 +17,10 @@ set autoindent
 set cindent
 set cinoptions+=l1 " for switch case alignement
 set cino=N-s       " for namespace no indentation
-set cino=g0        " for classes no indentation
+set cino=g0        " for classes no indentation 
 
 " spell checker
-set spell spelllang=en_us
+set spell spelllang=en_us,de_ch
 
 " doxy plugin
 let g:DoxygenToolkit_commentType = "C++"
@@ -64,4 +64,4 @@ let fortran_do_enddo=1
 " syntastic headers on
 let g:syntastic_cpp_check_header = 1 
 let g:syntastic_c_remove_include_errors = 1 
-let g:syntastic_c_include_dirs = ['/home/huppd/trilinos/debug/include']
+let g:syntastic_c_include_dirs = ['~/trilinos/release/include']

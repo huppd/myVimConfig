@@ -4,6 +4,7 @@ syntax on
 filetype plugin indent on
 
 set number " shows line number
+set tw=90
 
 " vim-easytags " no color
 :autocmd FileType cpp let b:easytags_auto_highlight = 0

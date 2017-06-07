@@ -1,27 +1,34 @@
 execute pathogen#infect()
 
 syntax on
-filetype plugin indent on
+filetype on
+filetype plugin on
+filetype indent on
+
 
 set number " shows line number
-set tw=90
+set tw=100
+
+" indent
+set expandtab
+set shiftwidth=2
+set tabstop=2
+set autoindent
+set smartindent 
+set cindent
+set cinoptions+=l1 " for switch case alignement
+set cinoptions+=N-s       " for namespace no indentation
+set cinoptions+=g0        " for classes no indentation 
+set cinoptions+=g-1
+
+" spell checker
+set spell spelllang=en_us,de_ch
 
 " vim-easytags " no color
 :autocmd FileType cpp let b:easytags_auto_highlight = 0
 "let b:easytags_auto_highlight = 0
 "let g:easytags_syntax_keyword = 'always'
 
-" indent
-set shiftwidth=2
-set tabstop=2
-set autoindent
-set cindent
-set cinoptions+=l1 " for switch case alignement
-set cino=N-s       " for namespace no indentation
-set cino=g0        " for classes no indentation 
-
-" spell checker
-set spell spelllang=en_us,de_ch
 
 " doxy plugin
 let g:DoxygenToolkit_commentType = "C++"
@@ -63,6 +70,17 @@ let fortran_do_enddo=1
 "set guifont=Monospace\ 18
 
 " syntastic headers on
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
+" syntastic fortran
+let g:syntastic_fortran_remove_include_errors = 1
+" syntastic c++
 let g:syntastic_cpp_check_header = 1 
-let g:syntastic_c_remove_include_errors = 1 
+let g:syntastic_c_remove_include_errors = 0 
 let g:syntastic_c_include_dirs = ['~/trilinos/release/include']

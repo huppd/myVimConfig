@@ -16,9 +16,9 @@ set tabstop=2
 set autoindent
 set smartindent 
 set cindent
-set cinoptions+=l1 " for switch case alignement
-set cinoptions+=N-s       " for namespace no indentation
-set cinoptions+=g0        " for classes no indentation 
+set cinoptions+=l1   " for switch case alignement
+set cinoptions+=N-s  " for namespace no indentation
+set cinoptions+=g0   " for classes no indentation 
 set cinoptions+=g-1
 
 " spell checker

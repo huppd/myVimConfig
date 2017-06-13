@@ -58,10 +58,14 @@ let g:Tex_GotoError=0 "decativates jumping to first error
 " taglist
 let Tlist_Use_Right_Window = 1
 
+" NERDTree
+let g:NERDTreeWinSize=25
+
 "This mapping uses <cword> to get the word under the cursor, and searches for
 "it in the current directory and all subdirectories, opening the quickfix
 "window when done
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+
 
 " fortran
 let fortran_do_enddo=1

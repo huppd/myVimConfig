@@ -9,6 +9,7 @@ filetype indent on
 set number " shows line number
 set tw=100
 
+
 " indent
 set expandtab
 set shiftwidth=2
@@ -21,8 +22,10 @@ set cinoptions+=N-s  " for namespace no indentation
 set cinoptions+=g0   " for classes no indentation 
 set cinoptions+=g-1
 
+
 " spell checker
 set spell spelllang=en_us,de_ch
+
 
 " vim-easytags " no color
 :autocmd FileType cpp let b:easytags_auto_highlight = 0
@@ -49,17 +52,14 @@ let g:DoxygenToolkit_compactOneLineDoc = "yes"
 
 let g:load_doxygen_syntax=1 " independent on plugins just highlights
 
-" latex-suite
-let g:Tex_DefaultTargetFormat="pdf"
-let g:tex_flavor="latex"  "activates plugin also for non begin document files
-let g:Tex_GotoError=0 "decativates jumping to first error
+
+" NERDTree
+let g:NERDTreeWinSize=25
 
 
 " taglist
 let Tlist_Use_Right_Window = 1
 
-" NERDTree
-let g:NERDTreeWinSize=25
 
 "This mapping uses <cword> to get the word under the cursor, and searches for
 "it in the current directory and all subdirectories, opening the quickfix
@@ -70,8 +70,10 @@ map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 " fortran
 let fortran_do_enddo=1
 
+
 " font size
 "set guifont=Monospace\ 18
+
 
 " syntastic headers on
 "set statusline+=%#warningmsg#

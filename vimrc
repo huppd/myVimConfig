@@ -7,7 +7,7 @@ filetype indent on
 
 
 set number " shows line number
-set tw=100
+set tw=90
 
 
 " indent
@@ -82,7 +82,7 @@ let fortran_do_enddo=1
 
 "let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 "
 " syntastic fortran

@@ -1,7 +1,7 @@
 set tw=85
 
-set conceallevel=0
-let g:tex_conceal="abdgms"
+set conceallevel=2
+let g:tex_conceal="abdgmsS"
 
 " latex-suite
 let g:Tex_UseMakefile=0 " don't use makefile

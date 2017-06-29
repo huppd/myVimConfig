@@ -1,5 +1,8 @@
 set tw=85
 
+set conceallevel=0
+let g:tex_conceal="abdgms"
+
 " latex-suite
 let g:Tex_UseMakefile=0 " don't use makefile
 let g:Tex_DefaultTargetFormat="pdf"

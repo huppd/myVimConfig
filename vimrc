@@ -7,7 +7,18 @@ filetype indent on
 
 
 set number " shows line number
-set tw=100
+set tw=90
+
+" solarized colorscheme
+if has('gui_running')
+  let g:solarized_contrast="high" 
+  set background=light
+  colorscheme solarized
+else
+  let g:solarized_termcolors=256
+  set background=dark
+  colorscheme solarized
+endif
 
 
 " indent
@@ -54,7 +65,7 @@ let g:load_doxygen_syntax=1 " independent on plugins just highlights
 
 
 " NERDTree
-let g:NERDTreeWinSize=25
+"let g:NERDTreeWinSize=25
 
 
 " taglist
@@ -82,7 +93,7 @@ let fortran_do_enddo=1
 
 "let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 "
 " syntastic fortran

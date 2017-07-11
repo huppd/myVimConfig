@@ -2,6 +2,8 @@ set tw=85
 
 set conceallevel=2
 let g:tex_conceal="abdgmsS"
+"let g:tex_superscripts= "[0-9a-zA-Z.,:;+-<>/()=]"
+"let g:tex_subscripts= "[0-9a-zA-Z,+-/().]"
 
 " latex-suite
 let g:Tex_UseMakefile=0 " don't use makefile

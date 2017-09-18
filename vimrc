@@ -5,6 +5,8 @@ filetype on
 filetype plugin on
 filetype indent on
 
+" treat tikz as tex files
+au BufNewFile,BufRead *.tikz set filetype=tex
 
 set number " shows line number
 set tw=90

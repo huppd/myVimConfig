@@ -25,3 +25,6 @@ indices
 multigrid
 Chebyshev
 ansatz
+subdomains
+discretizations
+subdomain

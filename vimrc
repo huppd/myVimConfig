@@ -18,7 +18,9 @@ if has('gui_running')
   colorscheme solarized
 else
   let g:solarized_termcolors=256
-  set background=dark
+  let g:solarized_contrast="high" 
+  "set background=dark
+  set background=light
   colorscheme solarized
 endif
 

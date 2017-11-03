@@ -69,7 +69,7 @@ let g:load_doxygen_syntax=1 " independent on plugins just highlights
 
 
 " NERDTree
-"let g:NERDTreeWinSize=25
+let g:NERDTreeWinSize=25
 
 
 " taglist

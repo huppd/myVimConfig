@@ -11,18 +11,18 @@ au BufNewFile,BufRead *.tikz set filetype=tex
 set number " shows line number
 set tw=90
 
-" solarized colorscheme
-if has('gui_running')
-  let g:solarized_contrast="high" 
-  set background=light
-  colorscheme solarized
-else
-  let g:solarized_termcolors=256
-  let g:solarized_contrast="high" 
-  "set background=dark
-  set background=light
-  colorscheme solarized
-endif
+"" solarized colorscheme
+"if has('gui_running')
+  "let g:solarized_contrast="high" 
+  "set background=light
+  "colorscheme solarized
+"else
+  "let g:solarized_termcolors=256
+  "let g:solarized_contrast="high" 
+  ""set background=dark
+  "set background=light
+  "colorscheme solarized
+"endif
 
 
 " indent

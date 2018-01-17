@@ -30,3 +30,5 @@ discretizations
 subdomain
 Hiemenz
 Vandermonde
+upwinding
+nonsymmetric

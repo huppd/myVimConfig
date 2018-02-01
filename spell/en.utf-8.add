@@ -32,3 +32,5 @@ Hiemenz
 Vandermonde
 upwinding
 nonsymmetric
+downwinding
+Vanka

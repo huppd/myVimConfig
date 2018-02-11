@@ -13,10 +13,10 @@ set tw=90
 
 " solarized colorscheme
 if has('gui_running')
-  "let g:solarized_termcolors=256
-  "let g:solarized_contrast="high" 
-  "set background=light
-  "colorscheme solarized
+  let g:solarized_termcolors=256
+  let g:solarized_contrast="high" 
+  set background=light
+  colorscheme solarized
 else
   let g:solarized_termcolors=256
   let g:solarized_contrast="high" 

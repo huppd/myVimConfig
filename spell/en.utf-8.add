@@ -36,3 +36,6 @@ downwinding
 Vanka
 Elman
 preconditioners
+Kutta
+Nicolson
+vortices

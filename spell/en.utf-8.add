@@ -32,4 +32,14 @@ Hiemenz
 Vandermonde
 upwinding
 nonsymmetric
+<<<<<<< HEAD
 nonsingular
+=======
+downwinding
+Vanka
+Elman
+preconditioners
+Kutta
+Nicolson
+vortices
+>>>>>>> f449350a5bd1f22734c9164a716dda8e0b02427e

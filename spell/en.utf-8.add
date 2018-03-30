@@ -39,3 +39,7 @@ preconditioners
 Kutta
 Nicolson
 vortices
+vertices
+streamwise
+chordwise
+biofluid

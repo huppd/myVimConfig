@@ -32,9 +32,7 @@ Hiemenz
 Vandermonde
 upwinding
 nonsymmetric
-<<<<<<< HEAD
 nonsingular
-=======
 downwinding
 Vanka
 Elman
@@ -42,14 +40,10 @@ preconditioners
 Kutta
 Nicolson
 vortices
-<<<<<<< HEAD
->>>>>>> f449350a5bd1f22734c9164a716dda8e0b02427e
-=======
 vertices
 streamwise
 chordwise
 biofluid
->>>>>>> dfb214f7b710ee81b9072b0e2905d900250a66d4
 parareal
 subinterval
 Doktoratsstudium

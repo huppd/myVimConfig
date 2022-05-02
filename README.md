@@ -1,7 +1,7 @@
 #	Installation:
 
 ```
-git clone git://github.com/huppd/myVimConfig.git ~/.vim
+git clone git@github.com:huppd/myVimConfig.git ~/.vim
 ```
 
 ## Create symlinks:
